@@ -27,7 +27,7 @@ FROM nginx:stable-alpine
 
 WORKDIR /usr/src/app
 
-COPY --from=BUILD_IMAGE /usr/src/app/dist/arweave-wallet-kit-demo /usr/share/nginx/html
+COPY --from=BUILD_IMAGE /usr/src/app/dist/arweave-wallet-kit-landing /usr/share/nginx/html
 
 EXPOSE 80
 
