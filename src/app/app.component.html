@@ -1,0 +1,18 @@
+<awk-connect-button [size]="'xl'"> </awk-connect-button>
+
+<awk-profile-modal [size]="'xl'"></awk-profile-modal>
+
+<awk-connection-modal
+  [appInfo]="{ name: 'C8', logo: 'https://capsl8.com/favicon.ico' }"
+  [permissions]="[
+    'ACCESS_ADDRESS',
+    'ACCESS_PUBLIC_KEY',
+    'ACCESS_ALL_ADDRESSES',
+    'SIGN_TRANSACTION',
+    'ENCRYPT',
+    'DECRYPT',
+    'SIGNATURE',
+    'ACCESS_ARWEAVE_CONFIG',
+    'DISPATCH'
+  ]"
+></awk-connection-modal>
