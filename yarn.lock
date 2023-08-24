@@ -2325,10 +2325,10 @@ arweave-wallet-connector@^1.0.2:
     open "^8.4.2"
     ws "^8.12.1"
 
-arweave-wallet-kit-ng@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/arweave-wallet-kit-ng/-/arweave-wallet-kit-ng-1.1.1.tgz#94850cd0bf5720727b53aca8645e7230ccfdc884"
-  integrity sha512-2BE0dnLrw8yrEzeF4cSHA8WjqZXIbNPf0MwxWKVP7Uw1Z78WXYCANUl5+8xOeSTZggQrW/YlMJFfAOUaTGSvrg==
+arweave-wallet-kit-ng@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/arweave-wallet-kit-ng/-/arweave-wallet-kit-ng-2.0.0.tgz#cd89d3d2a6ba183fe1d43bf0ddaac3fa15d3aa62"
+  integrity sha512-yFg+eM6pJ0c9zE3o2wTT4HFM27iz3tsBlMpHkuJoVheNhZQo4kdJmBVjvhqUdKGD/GW0CTM7j9VjifbjwuZ1OA==
   dependencies:
     tslib "^2.3.0"
 

@@ -24,7 +24,7 @@
     "arconnect": "^0.4.2",
     "arweave": "^1.14.4",
     "arweave-wallet-connector": "^1.0.2",
-    "arweave-wallet-kit-ng": "^1.1.1",
+    "arweave-wallet-kit-ng": "^2.0.0",
     "graphql": "^16.6.0",
     "othent": "^1.0.641",
     "rxjs": "~7.8.0",
