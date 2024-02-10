@@ -1,8 +1,8 @@
-const colors = require("tailwindcss/colors");
+const colors = require("tailwindcss/colors")
 
 /** @type {import('tailwindcss').Config} */
 
-const rgb = hexToRgb(colors.black);
+const rgb = hexToRgb(colors.black)
 
 module.exports = {
   content: ["./src/**/*.{html,ts}"],
@@ -21,14 +21,14 @@ module.exports = {
     },
   },
   plugins: [],
-};
+}
 
 function hexToRgb(hex) {
-  var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
+  var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i
   hex = hex.replace(shorthandRegex, function (m, r, g, b) {
-    return r + r + g + g + b + b;
-  });
+    return r + r + g + g + b + b
+  })
 
-  var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-  return result ? `${result[1]} ${result[2]} ${result[3]}` : null;
+  var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex)
+  return result ? `${result[1]} ${result[2]} ${result[3]}` : null
 }
